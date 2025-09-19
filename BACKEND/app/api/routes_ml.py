@@ -1,4 +1,3 @@
-
 from fastapi import APIRouter, HTTPException, Depends, status, Query, BackgroundTasks
 from typing import Dict, Any, List, Optional
 from datetime import datetime, timezone
@@ -11,7 +10,6 @@ from app.schemas.ml import (
     FeatureImportanceAnalysis
 )
 from app.dependencies import get_current_user, get_admin_user, get_health_worker
-# FIXED: Use only one import - predictor has the updated models
 from app.ml.predictor import get_model, DiseasePredictor
 from app.db.database import firestore_service, FirestoreCollections
 from app.core.utils import create_response, generate_id
@@ -27,17 +25,17 @@ async def predict_risk(
     current_user: Dict[str, Any] = Depends(get_current_user)
 ):
     """
-    Generate risk prediction for waterborne disease outbreak using real ML models
+    Generate basic risk prediction for waterborne disease outbreak using real ML models
     """
     try:
         # Initialize risk predictor
-        risk_predictor = get_model()  # FIXED: Use get_model() instead of DiseasePredictor()
+        risk_predictor = get_model()
         
         # Convert Pydantic model to dict for processing
         input_data = prediction_input.model_dump()
         
-        # Generate combined risk prediction
-        risk_prediction = risk_predictor.predict_combined_risk(input_data)
+        # Generate risk prediction (using water quality model as primary)
+        risk_prediction = risk_predictor.predict_water_quality_risk(input_data)
         
         # Log prediction request for audit
         await firestore_service.create_document(
@@ -46,7 +44,7 @@ async def predict_risk(
                 "user_uid": current_user["uid"],
                 "action": "risk_prediction_requested",
                 "location": input_data["location"],
-                "prediction_type": "combined_risk_assessment",
+                "prediction_type": "basic_risk_assessment",
                 "timestamp": datetime.now(timezone.utc)
             }
         )
@@ -54,7 +52,7 @@ async def predict_risk(
         logger.info(
             "Risk prediction completed successfully",
             user_id=current_user["uid"],
-            risk_level=risk_prediction.get("combined_risk", {}).get("risk_level", "unknown")
+            risk_level=risk_prediction.get("risk_level", "unknown")
         )
         
         return create_response(
@@ -107,10 +105,11 @@ async def predict_water_quality_risk(
             detail=f"Water quality prediction failed: {str(e)}"
         )
 
+
 @router.post("/predict/health-risk")
 async def predict_health_risk(
     health_input: HealthRiskPredictionInput,
-    current_user: Dict[str, Any] = Depends(get_current_user)  # FIXED: Changed from get_health_worker
+    current_user: Dict[str, Any] = Depends(get_current_user)
 ):
     """
     Generate health risk prediction using demographic and environmental factors
@@ -121,7 +120,7 @@ async def predict_health_risk(
         # Convert to format expected by health model
         input_data = health_input.model_dump()
         
-        # FIXED: Use correct method name
+        # Use correct method name
         prediction_result = model.predict_health_risk(input_data)
         
         logger.info(
@@ -173,54 +172,17 @@ async def predict_combined_risk(
         if prediction_result.get("health_risk"):
             enhanced_result["models_used"].append("health_risk_rf_model")
         
-        logger.info(
-            "Combined risk prediction completed",
-            user_id=current_user["uid"],
-            models_used=enhanced_result["models_used"]
+        # Log prediction request for audit
+        await firestore_service.create_document(
+            FirestoreCollections.AUDIT_LOGS,
+            {
+                "user_uid": current_user["uid"],
+                "action": "combined_risk_prediction_requested",
+                "location": input_data["location"],
+                "prediction_type": "combined_risk_assessment",
+                "timestamp": datetime.now(timezone.utc)
+            }
         )
-        
-        return create_response(
-            success=True,
-            message="Combined risk assessment completed successfully",
-            data=enhanced_result
-        )
-        
-    except Exception as e:
-        logger.error("Combined risk prediction failed", error=str(e))
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Combined risk prediction failed: {str(e)}"
-        )
-
-
-@router.post("/predict/combined")
-async def predict_combined_risk(
-    prediction_input: PredictionInput,
-    current_user: Dict[str, Any] = Depends(get_current_user)
-):
-    """
-    Generate combined risk assessment using both water quality and health models
-    """
-    try:
-        model = get_model()
-        
-        # Convert input
-        input_data = prediction_input.model_dump()
-        
-        # Get combined prediction
-        prediction_result = model.predict_combined_risk(input_data)
-        
-        # Enhanced response with recommendations
-        enhanced_result = {
-            **prediction_result,
-            "assessment_type": "combined_risk_assessment",
-            "models_used": []
-        }
-        
-        if prediction_result.get("water_quality_risk"):
-            enhanced_result["models_used"].append("water_quality_rf_model")
-        if prediction_result.get("health_risk"):
-            enhanced_result["models_used"].append("health_risk_rf_model")
         
         logger.info(
             "Combined risk prediction completed",
@@ -384,61 +346,6 @@ async def batch_risk_prediction(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Batch prediction failed: {str(e)}"
         )
-
-
-@router.get("/risk-map")
-async def get_regional_risk_map(
-    lat_min: float = Query(..., ge=21.0, le=30.0, description="Minimum latitude"),
-    lat_max: float = Query(..., ge=21.0, le=30.0, description="Maximum latitude"),
-    lon_min: float = Query(..., ge=87.0, le=98.0, description="Minimum longitude"),
-    lon_max: float = Query(..., ge=87.0, le=98.0, description="Maximum longitude"),
-    current_user: Dict[str, Any] = Depends(get_current_user)
-):
-    """
-    Generate risk map for a geographic region
-    """
-    try:
-        # Validate bounds
-        if lat_min >= lat_max or lon_min >= lon_max:
-            raise HTTPException(
-                status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Invalid coordinate bounds"
-            )
-        
-        region_bounds = {
-            'lat_min': lat_min,
-            'lat_max': lat_max,
-            'lon_min': lon_min,
-            'lon_max': lon_max
-        }
-        
-        risk_predictor = DiseasePredictor()
-        
-        # Generate risk map
-        risk_map_data = await risk_predictor.get_regional_risk_map(region_bounds)
-        
-        logger.info(
-            "Risk map generated",
-            user_id=current_user["uid"],
-            total_points=risk_map_data["total_points"],
-            high_risk_areas=risk_map_data["risk_summary"]["high_risk_areas"]
-        )
-        
-        return create_response(
-            success=True,
-            message="Regional risk map generated successfully",
-            data=risk_map_data
-        )
-        
-    except HTTPException:
-        raise
-    except Exception as e:
-        logger.error("Risk map generation failed", error=str(e))
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Risk map generation failed: {str(e)}"
-        )
-
 
 @router.get("/model/performance")
 async def get_model_performance(

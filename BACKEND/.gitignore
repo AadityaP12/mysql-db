@@ -27,7 +27,7 @@ Thumbs.db
 # FastAPI / Uvicorn
 *.db
 
-# ML models (optional: you might want to keep some versioned)
+# ML models 
 app/ml/models/*.pkl
 
 # Datasets
@@ -42,3 +42,11 @@ app/db/sih-wb-firebase-adminsdk.json
 
 # Pytest cache
 .pytest_cache/
+
+# Explicitly ignore sensitive / unwanted files
+BACKEND/app/ml/predictor_2.py
+BACKEND/token.txt
+BACKEND/firebase_login.py
+BACKEND/diagnose_model.py
+BACKEND/test_model.py
+BACKEND/reset_password.py

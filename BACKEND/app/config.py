@@ -77,7 +77,7 @@ class Settings(BaseSettings):
     # Security
     SECRET_KEY: str = "AIzaSyC6pNVgbv6KLkeKg19W_9co8FPztkbemrc"
     ALGORITHM: str = "HS256"
-    ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 1440
     SESSION_EXPIRE_HOURS: int = 24
 
     # Monitoring and Observability
