@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.egg-info/
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# FastAPI / Uvicorn
+*.db
+
+# ML models (optional: you might want to keep some versioned)
+app/ml/models/*.pkl
+
+# Datasets
+app/ml/datasets/
+*.csv
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Firebase private key
+app/db/sih-wb-firebase-adminsdk.json
+
+# Pytest cache
+.pytest_cache/

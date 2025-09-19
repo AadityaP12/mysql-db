@@ -1,0 +1,15 @@
+| **Feature**                 | **Typical Measurement Method**                            | **Difficulty** | **Notes**                                                                |
+| --------------------------- | --------------------------------------------------------- | -------------- | ------------------------------------------------------------------------ |
+| **source\_type**            | Observation / survey                                      | Easy           | Just record whether it’s a river, well, tap, etc.                        |
+| **fecal\_coliform\_MPN**    | Membrane filtration or MPN (Most Probable Number) culture | Moderate–Hard  | Requires sterile sampling and 18–24 h incubation.                        |
+| **turbidity\_NTU**          | Portable turbidity meter (nephelometer)                   | Easy           | Hand-held digital sensors are inexpensive and quick.                     |
+| **rainfall\_24h\_mm**       | Local rain gauge or weather-station data                  | Easy           | Public meteorological data can substitute if no on-site gauge.           |
+| **temperature\_C (water)**  | Digital water thermometer or probe                        | Easy           | Instant reading.                                                         |
+| **dissolved\_oxygen\_mgL**  | DO probe with electrochemical or optical sensor           | Moderate       | Portable meters common; need regular calibration.                        |
+| **pH**                      | Hand-held pH meter or strips                              | Easy           | Digital meters are inexpensive and fast.                                 |
+| **chlorine\_mgL (free)**    | Pool-style DPD colorimetric kit or electronic sensor      | Easy–Moderate  | Quick field test; accuracy requires fresh reagent and immediate reading. |
+| **month**                   | Timestamp (from sampling date)                            | Easy           | Taken from the sampling record.                                          |
+| **season**                  | Derived from month/location                               | Easy           | No extra measurement; just classify into season.                         |
+| **risk\_percent**           | Computed output (model result)                            | N/A            | Not a physical measurement.                                              |
+| **persons\_with\_symptoms** | Community health survey or clinic reports                 | Moderate–Hard  | Requires household interviews or local public-health data.               |
+| **nitrate\_mgL (as NO₃⁻)**  | Colorimetric field kit or ion-selective electrode         | Moderate       | Field kits are quick but need careful handling and calibration.          |

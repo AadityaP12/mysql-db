@@ -1,0 +1,501 @@
+Record_ID,Date,State,District,Village,Patient_Age,Gender,Disease_Symptom,Water_Source,pH,Turbidity_NTU,Ecoli_Count_cfu,Rainfall_mm,Temperature_C,Reported_By,Treatment_Given,Outcome
+1,2023-12-31,Arunachal Pradesh,District_9,Village_5,68,Female,Cholera,River,6.62,19.06,216,146.4,25.0,ASHA,Hospital Referral,Under Treatment
+2,2023-06-11,Nagaland,District_3,Village_7,37,Female,Typhoid,Tap,5.97,3.96,420,11.6,31.7,ASHA,ORS,Recovered
+3,2023-08-13,Sikkim,District_6,Village_20,66,Male,Typhoid,Pond,7.3,14.45,266,4.1,34.2,ASHA,ORS,Under Treatment
+4,2023-12-31,Assam,District_1,Village_2,5,Male,Diarrhea,River,8.0,5.03,333,36.4,14.6,Clinic,None,Under Treatment
+5,2023-06-25,Nagaland,District_5,Village_11,20,Female,Diarrhea,Pond,6.41,10.97,337,86.4,17.3,ASHA,Hospital Referral,Recovered
+6,2023-03-05,Sikkim,District_2,Village_10,46,Female,Cholera,Pond,7.34,3.65,265,58.4,19.2,Clinic,None,Under Treatment
+7,2023-05-28,Arunachal Pradesh,District_7,Village_14,59,Male,Typhoid,Tube Well,6.87,15.92,178,39.9,22.9,Volunteer,Hospital Referral,Recovered
+8,2023-04-02,Sikkim,District_4,Village_7,40,Male,Typhoid,Pond,7.28,1.88,60,121.5,14.3,Volunteer,ORS,Referred
+9,2023-02-05,Manipur,District_5,Village_16,4,Female,Hepatitis A,Tube Well,5.7,19.03,347,193.1,30.2,ASHA,Antibiotics,Death
+10,2023-10-29,Nagaland,District_8,Village_6,3,Female,Diarrhea,Tube Well,6.41,2.86,398,136.8,21.0,Clinic,Antibiotics,Death
+11,2023-07-23,Sikkim,District_7,Village_13,4,Male,Cholera,Spring,5.87,10.41,438,6.9,32.7,Volunteer,Hospital Referral,Recovered
+12,2023-04-02,Mizoram,District_1,Village_5,50,Male,Typhoid,River,6.28,13.59,14,62.3,23.0,ASHA,Antibiotics,Recovered
+13,2023-06-18,Tripura,District_5,Village_4,68,Male,Hepatitis A,River,7.14,4.51,278,193.9,29.4,Volunteer,Hospital Referral,Death
+14,2023-01-15,Sikkim,District_10,Village_1,39,Male,Hepatitis A,Spring,8.32,18.0,35,119.6,33.0,Volunteer,ORS,Under Treatment
+15,2023-06-04,Meghalaya,District_10,Village_13,57,Male,Typhoid,River,5.77,4.72,480,9.0,18.1,ASHA,None,Recovered
+16,2023-11-19,Mizoram,District_10,Village_20,64,Male,Diarrhea,Tube Well,6.67,6.16,280,165.7,18.9,Volunteer,None,Recovered
+17,2023-10-29,Meghalaya,District_10,Village_3,12,Female,Typhoid,Spring,6.34,11.31,195,28.2,30.1,Volunteer,Hospital Referral,Recovered
+18,2023-12-24,Mizoram,District_6,Village_18,48,Male,Hepatitis A,River,5.72,19.75,396,154.4,15.0,ASHA,Hospital Referral,Referred
+19,2023-06-18,Manipur,District_4,Village_14,41,Female,Hepatitis A,Spring,5.52,16.49,313,141.4,28.2,Volunteer,None,Death
+20,2023-03-19,Tripura,District_3,Village_20,18,Female,Hepatitis A,River,7.81,2.41,137,71.7,12.9,Clinic,Antibiotics,Death
+21,2023-01-15,Tripura,District_5,Village_14,24,Female,Diarrhea,Spring,8.09,12.84,77,66.2,11.6,ASHA,ORS,Recovered
+22,2023-08-27,Meghalaya,District_3,Village_13,30,Female,Diarrhea,Tube Well,6.43,7.18,211,145.9,25.9,Clinic,ORS,Under Treatment
+23,2023-04-23,Assam,District_3,Village_11,42,Female,Cholera,Tap,8.16,9.97,419,23.9,27.8,Volunteer,ORS,Referred
+24,2023-04-30,Manipur,District_7,Village_17,42,Female,Hepatitis A,Tube Well,7.78,11.66,14,154.2,22.3,Volunteer,None,Recovered
+25,2023-12-31,Assam,District_6,Village_8,8,Male,Cholera,Tap,7.07,9.12,310,5.1,12.7,ASHA,Antibiotics,Under Treatment
+26,2023-04-02,Arunachal Pradesh,District_2,Village_7,77,Male,Hepatitis A,Spring,5.59,13.09,107,62.9,22.7,ASHA,Hospital Referral,Under Treatment
+27,2023-06-04,Manipur,District_6,Village_6,64,Female,Hepatitis A,Tube Well,8.22,5.74,199,82.1,28.9,Clinic,None,Referred
+28,2023-01-01,Meghalaya,District_1,Village_9,78,Female,Hepatitis A,Well,6.19,2.46,236,58.0,14.0,Clinic,Hospital Referral,Death
+29,2023-04-09,Arunachal Pradesh,District_5,Village_4,42,Female,Diarrhea,Spring,8.29,16.35,331,126.7,31.8,Volunteer,Antibiotics,Under Treatment
+30,2023-10-22,Nagaland,District_9,Village_13,13,Female,Cholera,Pond,7.91,4.54,447,178.5,23.5,Volunteer,Antibiotics,Under Treatment
+31,2023-11-05,Tripura,District_3,Village_11,23,Male,Hepatitis A,Well,7.92,18.03,64,63.6,12.8,Volunteer,ORS,Under Treatment
+32,2023-05-21,Tripura,District_8,Village_7,11,Male,Diarrhea,Pond,6.18,9.12,325,163.6,31.5,Clinic,ORS,Recovered
+33,2023-08-20,Mizoram,District_9,Village_16,12,Female,Diarrhea,Pond,5.52,10.7,471,83.5,15.6,ASHA,Hospital Referral,Referred
+34,2023-10-08,Assam,District_3,Village_12,19,Male,Hepatitis A,Tube Well,5.86,7.41,20,188.6,18.1,Volunteer,ORS,Under Treatment
+35,2023-11-12,Nagaland,District_1,Village_17,74,Female,Cholera,Well,7.06,14.36,129,72.7,34.3,ASHA,ORS,Under Treatment
+36,2023-01-29,Arunachal Pradesh,District_2,Village_17,13,Male,Diarrhea,Spring,8.39,5.78,488,99.4,17.5,Volunteer,Hospital Referral,Referred
+37,2023-11-05,Assam,District_9,Village_15,9,Male,Diarrhea,Well,6.35,1.7,76,121.9,22.6,Clinic,Hospital Referral,Under Treatment
+38,2023-05-14,Nagaland,District_1,Village_3,59,Female,Hepatitis A,River,5.65,6.29,171,181.7,16.0,Volunteer,None,Death
+39,2023-08-20,Sikkim,District_5,Village_17,76,Male,Cholera,River,5.93,10.3,42,197.1,16.1,Clinic,ORS,Recovered
+40,2023-04-30,Mizoram,District_3,Village_1,8,Female,Hepatitis A,Well,7.52,15.47,22,47.5,28.2,Clinic,ORS,Referred
+41,2023-08-20,Tripura,District_10,Village_13,53,Male,Diarrhea,Tube Well,6.6,13.01,3,126.7,23.4,Clinic,ORS,Recovered
+42,2023-12-31,Tripura,District_10,Village_13,68,Female,Diarrhea,River,5.77,16.87,255,64.2,14.7,ASHA,None,Under Treatment
+43,2023-11-05,Tripura,District_3,Village_6,2,Female,Diarrhea,Well,5.62,12.23,186,135.5,10.4,ASHA,Antibiotics,Death
+44,2023-04-09,Meghalaya,District_1,Village_3,65,Male,Cholera,River,7.04,5.3,438,129.0,14.4,Volunteer,None,Under Treatment
+45,2023-09-10,Mizoram,District_6,Village_20,58,Male,Typhoid,River,7.57,8.35,231,187.3,13.4,Volunteer,Hospital Referral,Recovered
+46,2023-11-05,Nagaland,District_2,Village_7,39,Male,Cholera,Spring,6.52,3.16,222,184.9,31.9,ASHA,ORS,Under Treatment
+47,2023-10-15,Mizoram,District_6,Village_15,52,Female,Hepatitis A,Tube Well,6.27,13.54,246,163.4,23.9,ASHA,Antibiotics,Death
+48,2023-04-09,Tripura,District_5,Village_13,8,Female,Cholera,Tap,7.09,5.6,8,18.6,32.4,ASHA,ORS,Death
+49,2023-07-23,Assam,District_7,Village_4,57,Male,Typhoid,Tube Well,8.2,13.03,82,67.8,18.7,Clinic,None,Recovered
+50,2023-06-11,Assam,District_4,Village_2,78,Female,Cholera,Well,7.68,18.05,393,177.4,29.5,Volunteer,Hospital Referral,Referred
+51,2023-03-12,Sikkim,District_5,Village_3,30,Male,Typhoid,Spring,7.43,2.6,493,32.3,32.5,ASHA,None,Referred
+52,2023-08-06,Assam,District_5,Village_9,63,Female,Diarrhea,Well,7.32,1.17,216,20.3,26.6,ASHA,Antibiotics,Death
+53,2023-07-09,Arunachal Pradesh,District_5,Village_7,80,Male,Cholera,Tap,5.52,4.06,78,109.7,27.3,Clinic,Hospital Referral,Death
+54,2023-07-16,Arunachal Pradesh,District_6,Village_3,5,Female,Typhoid,Tube Well,7.46,5.26,1,142.4,15.9,ASHA,None,Recovered
+55,2023-07-02,Meghalaya,District_9,Village_9,54,Female,Hepatitis A,Tap,6.48,15.18,177,129.9,31.2,ASHA,Antibiotics,Recovered
+56,2023-06-11,Manipur,District_5,Village_8,4,Female,Diarrhea,Tube Well,7.47,11.8,385,18.7,19.2,ASHA,None,Referred
+57,2023-11-26,Meghalaya,District_5,Village_7,20,Male,Typhoid,Spring,6.3,5.64,500,194.6,19.8,Clinic,Antibiotics,Under Treatment
+58,2023-09-17,Meghalaya,District_1,Village_4,3,Female,Diarrhea,Spring,8.18,12.99,115,159.0,22.6,ASHA,None,Under Treatment
+59,2023-07-16,Sikkim,District_6,Village_13,13,Female,Cholera,River,7.23,10.36,258,39.0,28.1,Volunteer,Hospital Referral,Referred
+60,2023-01-15,Assam,District_6,Village_7,56,Male,Hepatitis A,Pond,6.34,1.46,230,129.1,14.4,ASHA,ORS,Death
+61,2023-12-24,Mizoram,District_7,Village_2,38,Female,Diarrhea,Tube Well,8.32,19.12,275,183.0,19.3,ASHA,Hospital Referral,Death
+62,2023-04-30,Arunachal Pradesh,District_4,Village_15,40,Female,Cholera,Tube Well,5.55,18.64,37,85.6,34.2,ASHA,Antibiotics,Death
+63,2023-01-29,Assam,District_10,Village_14,11,Male,Diarrhea,Spring,8.39,17.21,11,58.9,19.6,ASHA,ORS,Death
+64,2023-02-12,Mizoram,District_1,Village_9,22,Female,Typhoid,Well,8.05,7.02,197,33.9,23.9,Volunteer,None,Under Treatment
+65,2023-05-07,Nagaland,District_6,Village_7,28,Male,Cholera,River,8.31,14.22,11,114.0,12.4,ASHA,Hospital Referral,Under Treatment
+66,2023-02-26,Tripura,District_3,Village_7,2,Male,Hepatitis A,Well,7.35,19.81,159,28.0,23.0,Clinic,Hospital Referral,Under Treatment
+67,2023-07-30,Sikkim,District_8,Village_5,68,Male,Typhoid,Pond,8.13,15.07,187,139.4,27.6,ASHA,Hospital Referral,Under Treatment
+68,2023-10-15,Nagaland,District_7,Village_3,19,Male,Diarrhea,Tube Well,6.58,6.58,275,161.9,30.3,Volunteer,Antibiotics,Under Treatment
+69,2023-04-02,Meghalaya,District_10,Village_15,62,Male,Typhoid,Tap,8.1,18.35,320,102.3,22.5,ASHA,Hospital Referral,Death
+70,2023-03-19,Nagaland,District_7,Village_13,55,Male,Typhoid,Spring,7.89,13.35,465,140.4,29.9,Clinic,ORS,Recovered
+71,2023-03-05,Mizoram,District_10,Village_8,36,Male,Hepatitis A,River,8.17,7.42,432,75.1,12.3,Clinic,ORS,Under Treatment
+72,2023-01-08,Mizoram,District_6,Village_15,34,Female,Diarrhea,Spring,7.23,1.68,336,93.1,23.6,ASHA,Antibiotics,Recovered
+73,2023-09-03,Nagaland,District_5,Village_4,58,Female,Hepatitis A,Tap,6.36,12.23,309,6.1,10.9,Volunteer,Antibiotics,Under Treatment
+74,2023-04-09,Manipur,District_4,Village_4,74,Female,Diarrhea,Spring,7.97,7.84,356,25.4,23.1,Clinic,None,Referred
+75,2023-04-09,Assam,District_1,Village_5,54,Male,Hepatitis A,River,7.81,5.1,95,124.6,12.1,ASHA,None,Under Treatment
+76,2023-01-22,Mizoram,District_10,Village_12,32,Male,Diarrhea,Tube Well,5.66,11.1,23,108.1,25.9,Volunteer,None,Referred
+77,2023-04-30,Nagaland,District_1,Village_2,25,Male,Hepatitis A,Well,7.68,19.54,292,103.3,18.1,ASHA,Hospital Referral,Death
+78,2023-01-29,Nagaland,District_1,Village_11,1,Male,Diarrhea,Well,7.89,6.15,102,87.8,12.0,Volunteer,ORS,Recovered
+79,2023-06-25,Meghalaya,District_7,Village_5,49,Male,Typhoid,Tube Well,5.58,19.29,406,167.2,27.4,Volunteer,ORS,Referred
+80,2023-03-05,Nagaland,District_7,Village_5,43,Male,Typhoid,Spring,6.73,4.29,102,31.3,16.3,Volunteer,Antibiotics,Death
+81,2023-09-03,Meghalaya,District_7,Village_1,25,Male,Diarrhea,Spring,7.15,14.58,9,132.0,17.0,ASHA,None,Referred
+82,2023-11-12,Sikkim,District_8,Village_2,42,Male,Hepatitis A,Tap,8.36,15.02,391,110.9,25.3,Volunteer,Antibiotics,Death
+83,2023-12-24,Meghalaya,District_4,Village_3,21,Female,Cholera,Spring,6.76,5.71,211,71.2,28.9,Volunteer,None,Death
+84,2023-06-11,Meghalaya,District_5,Village_14,71,Female,Typhoid,Tap,5.54,3.21,293,9.2,11.0,Volunteer,ORS,Death
+85,2023-03-12,Sikkim,District_10,Village_12,70,Female,Diarrhea,Tap,8.07,14.37,458,94.8,12.4,Clinic,None,Recovered
+86,2023-03-05,Manipur,District_6,Village_17,73,Female,Hepatitis A,Tap,6.97,10.0,34,34.6,20.8,Volunteer,Hospital Referral,Death
+87,2023-05-07,Tripura,District_8,Village_12,24,Female,Typhoid,Pond,6.7,12.7,347,127.0,11.1,Volunteer,ORS,Death
+88,2023-12-03,Manipur,District_2,Village_9,33,Female,Typhoid,Spring,6.62,12.89,390,100.6,31.4,Volunteer,Hospital Referral,Recovered
+89,2023-11-12,Mizoram,District_7,Village_4,76,Male,Hepatitis A,River,7.48,4.1,339,14.1,26.1,Volunteer,Antibiotics,Under Treatment
+90,2023-12-24,Tripura,District_4,Village_1,59,Male,Typhoid,Tube Well,5.58,12.13,213,188.0,24.4,Volunteer,Hospital Referral,Death
+91,2023-09-03,Arunachal Pradesh,District_9,Village_3,47,Male,Hepatitis A,River,6.66,13.22,281,91.7,23.6,Volunteer,None,Under Treatment
+92,2023-01-29,Arunachal Pradesh,District_9,Village_2,42,Male,Hepatitis A,Pond,8.32,8.34,136,192.2,32.6,Clinic,ORS,Referred
+93,2023-09-10,Nagaland,District_4,Village_9,70,Female,Typhoid,Spring,6.09,2.32,163,20.2,10.5,Clinic,None,Referred
+94,2023-08-20,Arunachal Pradesh,District_4,Village_9,13,Male,Cholera,Pond,5.78,13.98,191,14.2,18.0,ASHA,ORS,Death
+95,2023-05-07,Tripura,District_6,Village_12,58,Male,Cholera,Spring,8.03,1.44,347,162.9,17.0,ASHA,None,Under Treatment
+96,2023-05-21,Meghalaya,District_10,Village_6,51,Male,Cholera,Pond,5.85,14.24,497,125.8,31.9,Clinic,None,Recovered
+97,2023-11-12,Nagaland,District_8,Village_18,6,Male,Typhoid,Tube Well,7.71,16.27,47,56.4,14.4,Volunteer,ORS,Referred
+98,2023-01-08,Tripura,District_4,Village_6,12,Female,Hepatitis A,Pond,7.75,16.33,336,198.1,20.3,Clinic,Hospital Referral,Recovered
+99,2023-10-15,Tripura,District_2,Village_11,74,Female,Hepatitis A,Tube Well,6.62,15.75,16,68.2,33.3,ASHA,Antibiotics,Referred
+100,2023-09-10,Tripura,District_9,Village_7,35,Female,Diarrhea,Pond,8.08,9.15,199,150.2,28.9,Clinic,None,Death
+101,2023-05-21,Arunachal Pradesh,District_6,Village_2,28,Male,Diarrhea,Well,5.81,18.15,111,101.1,30.7,Volunteer,ORS,Recovered
+102,2023-11-05,Sikkim,District_3,Village_14,35,Female,Cholera,Well,6.46,18.01,52,77.8,10.3,ASHA,Hospital Referral,Under Treatment
+103,2023-07-23,Tripura,District_7,Village_6,5,Female,Typhoid,Tube Well,8.22,2.73,2,63.9,33.8,Clinic,ORS,Under Treatment
+104,2023-01-22,Tripura,District_3,Village_14,26,Female,Hepatitis A,Well,8.35,11.9,451,126.4,21.2,Volunteer,None,Referred
+105,2023-09-03,Nagaland,District_6,Village_5,40,Male,Hepatitis A,Spring,6.38,7.24,361,134.5,28.8,Clinic,None,Under Treatment
+106,2023-02-26,Nagaland,District_7,Village_9,13,Male,Hepatitis A,Tap,7.87,16.0,287,18.2,22.4,ASHA,ORS,Death
+107,2023-12-03,Assam,District_5,Village_1,30,Male,Hepatitis A,Spring,5.67,11.44,131,88.3,32.2,ASHA,ORS,Under Treatment
+108,2023-10-15,Manipur,District_10,Village_6,60,Female,Cholera,Well,6.55,3.22,101,28.6,29.0,Volunteer,ORS,Recovered
+109,2023-06-18,Mizoram,District_2,Village_17,41,Female,Hepatitis A,River,7.35,2.92,440,16.8,27.5,ASHA,Antibiotics,Death
+110,2023-01-15,Nagaland,District_6,Village_10,48,Male,Diarrhea,Well,5.72,16.62,11,141.2,12.0,Volunteer,ORS,Under Treatment
+111,2023-02-12,Tripura,District_3,Village_17,77,Female,Typhoid,Spring,5.75,19.75,100,74.9,19.3,ASHA,Antibiotics,Under Treatment
+112,2023-08-06,Manipur,District_4,Village_19,3,Male,Hepatitis A,River,7.94,19.0,320,197.2,28.8,ASHA,Hospital Referral,Referred
+113,2023-08-06,Mizoram,District_1,Village_12,36,Male,Typhoid,Tube Well,6.63,2.59,414,155.4,24.0,Clinic,Hospital Referral,Recovered
+114,2023-07-02,Sikkim,District_4,Village_8,62,Male,Cholera,Pond,6.77,18.22,417,22.2,22.3,Clinic,None,Recovered
+115,2023-04-02,Mizoram,District_6,Village_1,19,Female,Diarrhea,Tap,5.53,9.9,467,11.3,13.0,Clinic,None,Referred
+116,2023-10-01,Manipur,District_7,Village_4,25,Male,Cholera,Well,5.85,13.33,166,149.2,24.6,ASHA,None,Death
+117,2023-07-16,Arunachal Pradesh,District_1,Village_2,31,Female,Hepatitis A,Well,8.39,8.12,68,57.1,31.7,Clinic,Antibiotics,Recovered
+118,2023-04-23,Nagaland,District_3,Village_17,29,Male,Hepatitis A,Well,6.17,19.3,449,2.4,34.2,Volunteer,ORS,Referred
+119,2023-05-21,Assam,District_10,Village_10,42,Male,Diarrhea,Spring,5.63,17.93,447,105.5,34.8,Volunteer,ORS,Under Treatment
+120,2023-07-02,Mizoram,District_9,Village_2,4,Male,Diarrhea,Well,5.72,11.52,271,193.9,23.1,ASHA,ORS,Death
+121,2023-07-16,Arunachal Pradesh,District_6,Village_10,2,Female,Hepatitis A,Tap,7.39,14.22,325,90.9,25.7,Clinic,Antibiotics,Death
+122,2023-12-10,Manipur,District_4,Village_3,6,Female,Typhoid,Pond,7.25,18.12,14,9.1,17.0,Clinic,Antibiotics,Recovered
+123,2023-07-30,Nagaland,District_10,Village_3,80,Female,Cholera,Tube Well,8.35,17.92,284,91.1,25.5,Clinic,Hospital Referral,Death
+124,2023-05-07,Tripura,District_4,Village_8,68,Male,Cholera,Spring,6.33,4.57,409,92.7,18.8,Clinic,Hospital Referral,Under Treatment
+125,2023-05-21,Meghalaya,District_9,Village_9,12,Male,Cholera,Tap,7.25,2.48,401,194.9,34.7,Volunteer,Antibiotics,Referred
+126,2023-09-03,Meghalaya,District_2,Village_16,44,Male,Cholera,River,7.59,11.19,72,61.9,30.3,Clinic,Antibiotics,Referred
+127,2023-10-08,Assam,District_7,Village_20,20,Male,Hepatitis A,Well,7.55,4.09,144,182.2,30.6,Volunteer,Hospital Referral,Referred
+128,2023-01-15,Tripura,District_2,Village_4,55,Female,Diarrhea,Tube Well,8.35,14.79,244,122.7,20.5,Clinic,Antibiotics,Recovered
+129,2023-07-30,Sikkim,District_5,Village_15,62,Male,Typhoid,Tube Well,8.3,17.46,449,9.0,10.7,Clinic,None,Death
+130,2023-08-27,Sikkim,District_6,Village_13,15,Male,Diarrhea,Tube Well,6.63,16.4,81,197.5,13.8,Clinic,None,Under Treatment
+131,2023-10-01,Mizoram,District_5,Village_18,78,Male,Cholera,Tap,7.28,8.24,491,194.0,31.1,ASHA,Hospital Referral,Recovered
+132,2023-12-17,Arunachal Pradesh,District_10,Village_1,38,Female,Hepatitis A,Spring,8.01,9.91,255,83.0,16.8,ASHA,Hospital Referral,Under Treatment
+133,2023-08-20,Manipur,District_2,Village_11,75,Male,Hepatitis A,River,5.67,17.43,173,162.6,35.0,Clinic,None,Death
+134,2023-05-07,Nagaland,District_5,Village_15,74,Female,Typhoid,Spring,8.49,11.55,254,153.8,33.6,Volunteer,Hospital Referral,Death
+135,2023-10-15,Mizoram,District_6,Village_12,62,Female,Typhoid,Tube Well,8.05,5.7,382,90.1,13.2,Clinic,ORS,Recovered
+136,2023-03-19,Nagaland,District_2,Village_4,32,Male,Diarrhea,Tap,8.36,12.52,289,45.7,26.8,ASHA,Hospital Referral,Death
+137,2023-11-12,Meghalaya,District_9,Village_17,22,Male,Cholera,Tap,7.35,7.81,440,22.7,26.8,Volunteer,None,Recovered
+138,2023-12-17,Sikkim,District_5,Village_5,20,Female,Hepatitis A,Spring,7.06,15.67,53,104.0,31.3,Clinic,None,Under Treatment
+139,2023-05-21,Assam,District_5,Village_12,37,Male,Hepatitis A,Well,7.16,11.66,100,175.3,20.1,Volunteer,ORS,Under Treatment
+140,2023-04-02,Assam,District_6,Village_4,3,Female,Cholera,Pond,5.9,1.55,168,151.0,25.5,ASHA,Hospital Referral,Under Treatment
+141,2023-06-11,Nagaland,District_4,Village_1,47,Female,Typhoid,River,7.61,5.05,3,27.3,10.4,Volunteer,Hospital Referral,Under Treatment
+142,2023-11-05,Assam,District_9,Village_16,21,Male,Diarrhea,Tap,6.55,12.21,285,78.4,20.9,Volunteer,ORS,Under Treatment
+143,2023-12-17,Sikkim,District_1,Village_5,77,Male,Typhoid,Well,8.21,7.62,332,102.8,29.6,ASHA,None,Recovered
+144,2023-12-24,Mizoram,District_2,Village_13,9,Male,Diarrhea,Spring,6.69,12.82,25,172.5,33.7,ASHA,Hospital Referral,Recovered
+145,2023-09-24,Arunachal Pradesh,District_4,Village_17,17,Male,Typhoid,Pond,5.94,18.61,358,98.4,16.5,Clinic,Hospital Referral,Death
+146,2023-01-22,Sikkim,District_4,Village_19,14,Male,Typhoid,Tube Well,6.88,19.62,130,98.5,18.2,ASHA,ORS,Under Treatment
+147,2023-01-15,Manipur,District_1,Village_13,36,Male,Diarrhea,Spring,7.4,5.56,330,15.2,13.2,ASHA,ORS,Death
+148,2023-02-26,Nagaland,District_5,Village_12,27,Female,Cholera,Spring,5.88,3.89,106,27.8,26.0,Volunteer,ORS,Death
+149,2023-11-19,Manipur,District_5,Village_12,79,Male,Diarrhea,Spring,6.05,7.57,162,179.4,21.8,Clinic,Hospital Referral,Referred
+150,2023-05-07,Arunachal Pradesh,District_10,Village_5,15,Male,Hepatitis A,Spring,7.5,4.27,478,38.5,11.0,Clinic,None,Recovered
+151,2023-10-08,Mizoram,District_7,Village_14,50,Male,Hepatitis A,Spring,6.01,6.29,116,35.4,12.2,Clinic,None,Death
+152,2023-10-08,Sikkim,District_10,Village_4,73,Female,Cholera,Tap,5.86,9.75,101,41.3,19.1,Clinic,None,Under Treatment
+153,2023-03-12,Meghalaya,District_5,Village_7,9,Male,Typhoid,Tube Well,7.01,14.12,90,7.9,30.0,Clinic,Antibiotics,Death
+154,2023-01-08,Sikkim,District_6,Village_3,11,Male,Hepatitis A,Spring,7.38,2.55,258,174.7,33.0,Clinic,Antibiotics,Under Treatment
+155,2023-08-20,Mizoram,District_2,Village_13,59,Female,Cholera,Tap,5.68,6.26,267,161.2,28.7,ASHA,Antibiotics,Under Treatment
+156,2023-04-09,Arunachal Pradesh,District_8,Village_18,27,Female,Typhoid,Tap,6.05,4.98,399,74.1,22.1,Volunteer,None,Under Treatment
+157,2023-07-16,Mizoram,District_3,Village_14,21,Female,Typhoid,River,7.35,8.01,209,92.5,28.7,Volunteer,Hospital Referral,Under Treatment
+158,2023-02-05,Manipur,District_1,Village_11,45,Male,Cholera,Tube Well,5.61,5.8,133,142.7,32.4,Volunteer,Antibiotics,Recovered
+159,2023-11-12,Manipur,District_5,Village_17,45,Male,Hepatitis A,Well,7.04,11.11,228,21.4,21.2,Clinic,None,Referred
+160,2023-08-27,Arunachal Pradesh,District_6,Village_8,48,Female,Hepatitis A,Tube Well,7.1,5.61,462,53.8,19.4,Clinic,None,Recovered
+161,2023-05-14,Arunachal Pradesh,District_5,Village_10,29,Female,Cholera,Well,5.56,7.12,254,42.3,18.2,Volunteer,Antibiotics,Referred
+162,2023-12-24,Mizoram,District_3,Village_20,58,Female,Cholera,Tube Well,5.86,17.92,38,118.7,27.0,Clinic,None,Referred
+163,2023-09-24,Tripura,District_9,Village_1,26,Male,Hepatitis A,Pond,7.87,10.47,51,17.4,23.4,ASHA,Hospital Referral,Under Treatment
+164,2023-04-16,Tripura,District_1,Village_12,70,Female,Hepatitis A,Well,7.26,15.16,281,86.3,13.2,Clinic,ORS,Referred
+165,2023-10-08,Manipur,District_1,Village_13,72,Female,Hepatitis A,Tap,6.35,7.9,286,129.2,24.3,Clinic,Hospital Referral,Under Treatment
+166,2023-06-18,Meghalaya,District_3,Village_4,62,Female,Typhoid,River,6.57,19.74,314,121.2,15.9,Volunteer,Antibiotics,Under Treatment
+167,2023-09-03,Manipur,District_7,Village_12,20,Female,Typhoid,Well,5.81,3.9,322,49.2,14.0,Volunteer,Hospital Referral,Referred
+168,2023-10-08,Manipur,District_8,Village_11,12,Female,Hepatitis A,Tube Well,6.06,6.42,185,34.7,32.4,Clinic,Hospital Referral,Death
+169,2023-05-07,Assam,District_10,Village_20,41,Male,Cholera,Spring,5.74,10.97,123,82.1,34.6,Clinic,Antibiotics,Death
+170,2023-09-10,Mizoram,District_5,Village_7,34,Female,Hepatitis A,Spring,5.84,8.56,43,193.9,31.6,Clinic,Antibiotics,Recovered
+171,2023-04-09,Mizoram,District_9,Village_20,10,Male,Typhoid,Tap,7.95,5.9,223,34.2,26.7,Volunteer,Hospital Referral,Death
+172,2023-12-03,Meghalaya,District_5,Village_3,34,Male,Hepatitis A,Tube Well,8.29,11.58,188,114.3,17.0,Clinic,None,Death
+173,2023-03-05,Assam,District_10,Village_14,69,Female,Cholera,River,7.81,4.55,24,64.7,20.6,ASHA,None,Referred
+174,2023-04-23,Sikkim,District_10,Village_15,42,Male,Cholera,Well,7.02,5.61,371,23.0,25.3,Volunteer,None,Death
+175,2023-08-20,Meghalaya,District_1,Village_8,16,Male,Typhoid,Tube Well,6.37,12.04,95,30.9,22.0,ASHA,None,Referred
+176,2023-05-21,Arunachal Pradesh,District_7,Village_1,38,Female,Diarrhea,Tube Well,7.1,1.98,74,67.3,13.4,Volunteer,Antibiotics,Under Treatment
+177,2023-07-30,Assam,District_8,Village_3,52,Male,Diarrhea,River,5.69,19.81,3,64.5,30.2,Volunteer,ORS,Referred
+178,2023-04-09,Arunachal Pradesh,District_5,Village_19,7,Male,Cholera,Tube Well,6.26,13.95,209,152.0,24.9,Volunteer,None,Death
+179,2023-06-11,Sikkim,District_6,Village_18,6,Male,Diarrhea,Tube Well,6.91,8.82,399,69.8,33.2,Volunteer,Hospital Referral,Recovered
+180,2023-10-29,Mizoram,District_5,Village_5,64,Male,Cholera,Tap,7.99,19.34,356,24.9,28.3,ASHA,ORS,Referred
+181,2023-06-18,Tripura,District_8,Village_20,59,Male,Diarrhea,Spring,8.32,4.44,195,13.3,28.5,Clinic,ORS,Referred
+182,2023-10-15,Meghalaya,District_7,Village_10,62,Female,Diarrhea,Well,7.22,16.99,186,28.0,29.9,Volunteer,Hospital Referral,Recovered
+183,2023-01-01,Nagaland,District_8,Village_4,56,Female,Typhoid,Well,6.1,4.11,255,32.9,30.4,ASHA,Hospital Referral,Referred
+184,2023-08-27,Nagaland,District_6,Village_16,20,Male,Cholera,Tube Well,7.5,10.94,300,71.8,31.9,Clinic,Antibiotics,Death
+185,2023-12-17,Mizoram,District_5,Village_14,44,Male,Hepatitis A,Spring,6.68,16.52,430,87.8,19.4,ASHA,Antibiotics,Recovered
+186,2023-05-07,Tripura,District_8,Village_17,26,Female,Diarrhea,Spring,6.89,6.73,500,149.5,22.6,Clinic,Hospital Referral,Death
+187,2023-08-27,Mizoram,District_5,Village_10,54,Female,Typhoid,Well,6.2,18.09,284,76.8,23.6,Clinic,Antibiotics,Death
+188,2023-08-27,Sikkim,District_5,Village_16,61,Female,Diarrhea,Tap,8.22,12.86,59,23.4,33.5,Clinic,Hospital Referral,Recovered
+189,2023-04-09,Tripura,District_7,Village_20,26,Male,Cholera,Tap,7.38,7.36,245,27.9,29.9,ASHA,Antibiotics,Referred
+190,2023-09-17,Sikkim,District_8,Village_4,18,Male,Hepatitis A,Tap,7.36,11.14,402,178.8,29.7,ASHA,Hospital Referral,Death
+191,2023-05-07,Arunachal Pradesh,District_5,Village_10,28,Male,Hepatitis A,Tap,5.96,6.92,272,49.7,28.6,ASHA,None,Death
+192,2023-02-19,Tripura,District_3,Village_8,14,Female,Diarrhea,Spring,5.6,11.83,329,152.5,31.9,Volunteer,Hospital Referral,Death
+193,2023-02-12,Manipur,District_7,Village_8,59,Female,Diarrhea,River,6.53,16.6,302,22.1,31.2,Volunteer,Antibiotics,Recovered
+194,2023-09-03,Tripura,District_9,Village_14,43,Female,Diarrhea,Spring,5.88,8.55,441,159.5,13.7,Clinic,ORS,Death
+195,2023-11-12,Tripura,District_2,Village_6,35,Male,Cholera,Well,6.19,14.72,410,144.0,26.0,Clinic,None,Recovered
+196,2023-10-08,Manipur,District_1,Village_15,55,Male,Cholera,Tap,7.58,11.31,28,50.4,18.6,Clinic,Antibiotics,Death
+197,2023-06-04,Arunachal Pradesh,District_2,Village_17,78,Male,Hepatitis A,Tube Well,6.04,18.26,43,116.7,20.0,Volunteer,None,Under Treatment
+198,2023-07-23,Tripura,District_3,Village_6,16,Male,Diarrhea,Tap,6.89,19.0,442,30.7,24.7,ASHA,Antibiotics,Under Treatment
+199,2023-08-27,Tripura,District_4,Village_20,22,Male,Diarrhea,Well,7.02,12.62,323,3.6,31.8,Clinic,ORS,Referred
+200,2023-11-26,Meghalaya,District_8,Village_19,43,Male,Cholera,River,8.3,11.74,214,139.3,33.1,ASHA,None,Under Treatment
+201,2023-09-17,Meghalaya,District_2,Village_11,21,Male,Cholera,Pond,7.62,3.9,100,115.3,25.2,ASHA,None,Death
+202,2023-04-30,Nagaland,District_7,Village_7,69,Female,Cholera,Tap,6.77,14.99,266,186.9,33.1,ASHA,ORS,Under Treatment
+203,2023-03-05,Manipur,District_10,Village_3,53,Female,Diarrhea,Spring,6.85,3.15,136,197.0,31.0,Clinic,ORS,Under Treatment
+204,2023-01-29,Sikkim,District_3,Village_9,45,Female,Typhoid,Tap,5.87,18.5,104,174.0,23.0,Volunteer,ORS,Recovered
+205,2023-05-14,Manipur,District_1,Village_8,1,Male,Cholera,Tap,7.27,8.58,28,11.0,18.4,Clinic,Hospital Referral,Under Treatment
+206,2023-07-16,Meghalaya,District_1,Village_14,15,Female,Typhoid,Tap,7.91,1.09,237,66.7,20.0,ASHA,Antibiotics,Under Treatment
+207,2023-09-03,Nagaland,District_5,Village_5,15,Female,Hepatitis A,Tube Well,7.11,18.48,187,69.3,18.7,ASHA,Hospital Referral,Recovered
+208,2023-06-25,Meghalaya,District_7,Village_20,60,Female,Diarrhea,River,7.71,9.59,150,44.9,21.3,Volunteer,ORS,Death
+209,2023-07-23,Mizoram,District_2,Village_12,18,Female,Cholera,Tap,5.92,4.35,310,99.7,20.5,Clinic,Antibiotics,Death
+210,2023-10-15,Manipur,District_6,Village_11,69,Male,Cholera,Tube Well,8.24,7.89,47,116.1,25.8,ASHA,None,Death
+211,2023-05-07,Assam,District_5,Village_8,28,Male,Typhoid,Spring,5.54,13.61,463,35.6,34.0,ASHA,ORS,Referred
+212,2023-05-14,Mizoram,District_5,Village_4,57,Female,Diarrhea,River,5.95,8.88,250,17.1,34.9,Volunteer,ORS,Recovered
+213,2023-05-21,Arunachal Pradesh,District_7,Village_19,9,Male,Hepatitis A,Well,7.01,12.31,207,13.4,28.7,Volunteer,Hospital Referral,Death
+214,2023-07-09,Meghalaya,District_3,Village_6,74,Male,Typhoid,Tap,6.13,18.06,51,41.0,14.8,Volunteer,None,Death
+215,2023-10-29,Arunachal Pradesh,District_1,Village_15,43,Female,Hepatitis A,Spring,5.61,9.97,351,113.0,11.6,ASHA,Antibiotics,Death
+216,2023-11-19,Sikkim,District_4,Village_4,7,Female,Typhoid,Pond,7.83,9.61,29,104.9,21.0,Volunteer,None,Recovered
+217,2023-11-19,Assam,District_7,Village_12,5,Male,Typhoid,Pond,6.7,11.63,361,31.0,14.5,Clinic,Antibiotics,Referred
+218,2023-07-02,Assam,District_9,Village_7,27,Male,Hepatitis A,Tap,8.09,18.98,129,74.7,16.8,Clinic,None,Referred
+219,2023-02-26,Tripura,District_3,Village_1,40,Female,Diarrhea,Spring,7.43,8.77,446,5.1,13.9,ASHA,Antibiotics,Under Treatment
+220,2023-02-26,Nagaland,District_10,Village_3,50,Male,Hepatitis A,Tube Well,7.65,13.52,223,5.4,15.5,Clinic,None,Death
+221,2023-04-23,Assam,District_5,Village_1,31,Female,Diarrhea,Pond,6.19,13.77,21,3.9,12.6,ASHA,Hospital Referral,Referred
+222,2023-03-12,Arunachal Pradesh,District_10,Village_14,51,Female,Typhoid,Tap,7.9,4.39,97,130.5,16.0,Volunteer,Antibiotics,Under Treatment
+223,2023-03-12,Meghalaya,District_2,Village_14,37,Male,Cholera,River,5.8,5.62,489,144.5,31.4,Volunteer,Antibiotics,Under Treatment
+224,2023-10-08,Assam,District_8,Village_18,46,Male,Hepatitis A,River,7.99,8.55,282,133.6,15.1,Volunteer,Antibiotics,Death
+225,2023-01-08,Arunachal Pradesh,District_6,Village_1,17,Female,Typhoid,Spring,6.38,18.03,203,2.6,12.1,Volunteer,Antibiotics,Recovered
+226,2023-06-25,Arunachal Pradesh,District_1,Village_16,18,Female,Diarrhea,Tap,6.12,1.5,161,36.3,24.6,ASHA,None,Death
+227,2023-05-14,Mizoram,District_6,Village_4,42,Female,Hepatitis A,Well,6.76,17.96,179,163.5,18.5,ASHA,Antibiotics,Recovered
+228,2023-10-01,Mizoram,District_6,Village_7,45,Male,Cholera,Tube Well,6.28,8.21,485,118.1,16.7,Volunteer,ORS,Recovered
+229,2023-12-17,Arunachal Pradesh,District_3,Village_6,56,Female,Cholera,River,7.37,8.78,209,110.4,20.9,ASHA,None,Death
+230,2023-04-23,Manipur,District_10,Village_17,77,Female,Cholera,Tube Well,6.38,19.02,415,152.7,13.5,Volunteer,Antibiotics,Death
+231,2023-10-15,Tripura,District_9,Village_16,45,Female,Hepatitis A,Spring,8.11,10.26,308,178.9,30.0,Clinic,None,Recovered
+232,2023-01-08,Manipur,District_2,Village_3,53,Male,Cholera,Well,6.78,1.43,248,53.7,23.5,Clinic,Hospital Referral,Under Treatment
+233,2023-05-21,Mizoram,District_1,Village_8,72,Female,Typhoid,Tube Well,7.4,5.9,327,27.9,30.9,ASHA,Antibiotics,Death
+234,2023-12-17,Manipur,District_4,Village_4,33,Female,Hepatitis A,Tube Well,8.45,10.99,79,34.3,16.8,Clinic,Hospital Referral,Death
+235,2023-06-25,Mizoram,District_9,Village_4,46,Male,Cholera,Well,5.56,18.37,452,23.6,24.4,Volunteer,Antibiotics,Referred
+236,2023-05-21,Assam,District_6,Village_19,68,Male,Diarrhea,Well,6.32,11.53,492,130.3,30.7,Volunteer,Antibiotics,Death
+237,2023-07-02,Manipur,District_4,Village_13,31,Male,Cholera,Well,6.12,1.21,84,27.4,32.5,Clinic,ORS,Under Treatment
+238,2023-12-10,Mizoram,District_9,Village_5,9,Female,Diarrhea,Spring,8.12,12.35,259,120.1,26.6,Volunteer,Antibiotics,Under Treatment
+239,2023-07-02,Manipur,District_3,Village_1,1,Female,Cholera,Pond,6.03,18.37,59,83.8,19.6,ASHA,None,Under Treatment
+240,2023-12-10,Mizoram,District_1,Village_7,15,Male,Hepatitis A,Tube Well,7.06,1.89,336,33.3,28.5,Clinic,ORS,Recovered
+241,2023-02-12,Arunachal Pradesh,District_8,Village_20,62,Male,Typhoid,River,5.75,12.46,422,49.1,19.7,Clinic,None,Recovered
+242,2023-05-14,Nagaland,District_4,Village_8,18,Female,Diarrhea,River,6.37,7.76,481,143.8,17.4,Clinic,ORS,Under Treatment
+243,2023-04-23,Manipur,District_2,Village_7,54,Female,Diarrhea,River,7.2,10.04,332,132.7,33.4,Clinic,Antibiotics,Recovered
+244,2023-05-21,Manipur,District_2,Village_9,48,Male,Cholera,Pond,7.7,5.08,117,6.2,16.6,ASHA,ORS,Under Treatment
+245,2023-05-21,Manipur,District_8,Village_20,53,Female,Diarrhea,Tube Well,7.29,1.98,178,99.3,24.9,Volunteer,Hospital Referral,Under Treatment
+246,2023-02-12,Meghalaya,District_6,Village_14,19,Female,Diarrhea,Tap,6.5,15.65,233,21.3,11.9,Volunteer,Antibiotics,Under Treatment
+247,2023-06-11,Sikkim,District_3,Village_2,59,Female,Hepatitis A,Tube Well,7.68,10.41,413,137.7,20.9,Clinic,Hospital Referral,Under Treatment
+248,2023-06-04,Tripura,District_7,Village_12,35,Female,Cholera,Pond,6.24,16.56,366,159.9,27.4,Clinic,None,Death
+249,2023-01-15,Arunachal Pradesh,District_2,Village_19,61,Female,Diarrhea,Well,6.32,12.21,237,72.2,12.3,Clinic,Hospital Referral,Recovered
+250,2023-11-19,Manipur,District_2,Village_16,45,Female,Diarrhea,Tube Well,8.25,3.6,193,190.0,21.2,ASHA,Antibiotics,Recovered
+251,2023-12-10,Mizoram,District_10,Village_20,6,Female,Cholera,Well,6.06,11.3,497,174.6,28.3,Volunteer,ORS,Under Treatment
+252,2023-02-19,Tripura,District_10,Village_12,29,Male,Cholera,Tube Well,7.92,13.52,17,138.5,31.2,Clinic,ORS,Referred
+253,2023-05-07,Mizoram,District_4,Village_18,56,Female,Cholera,Tap,6.25,10.3,365,44.2,34.7,Volunteer,Hospital Referral,Referred
+254,2023-01-29,Manipur,District_10,Village_16,51,Male,Cholera,Well,8.33,1.75,140,141.1,33.1,Clinic,None,Death
+255,2023-05-28,Sikkim,District_3,Village_18,76,Male,Diarrhea,Tube Well,6.04,11.79,397,183.1,10.8,Clinic,Antibiotics,Referred
+256,2023-12-24,Meghalaya,District_1,Village_1,25,Male,Hepatitis A,Pond,7.59,6.65,158,184.9,34.3,Volunteer,Antibiotics,Death
+257,2023-10-08,Sikkim,District_6,Village_12,29,Male,Cholera,River,8.33,10.01,443,172.4,31.1,ASHA,None,Recovered
+258,2023-10-01,Nagaland,District_10,Village_7,1,Male,Cholera,Pond,6.46,16.75,71,7.4,24.9,ASHA,ORS,Referred
+259,2023-07-23,Meghalaya,District_3,Village_6,20,Male,Hepatitis A,Spring,6.19,3.29,480,15.4,27.4,Clinic,None,Death
+260,2023-05-07,Assam,District_8,Village_6,54,Male,Hepatitis A,Spring,6.52,14.77,206,13.1,17.9,ASHA,Hospital Referral,Death
+261,2023-02-26,Meghalaya,District_9,Village_8,52,Male,Typhoid,Well,7.12,16.02,173,63.8,25.6,ASHA,Hospital Referral,Recovered
+262,2023-07-16,Sikkim,District_2,Village_8,30,Female,Diarrhea,River,8.16,12.7,293,46.6,10.6,Clinic,Antibiotics,Under Treatment
+263,2023-04-30,Tripura,District_7,Village_9,53,Male,Hepatitis A,Tube Well,8.11,1.4,373,174.9,23.2,Volunteer,None,Recovered
+264,2023-08-20,Mizoram,District_8,Village_7,36,Male,Typhoid,Tube Well,8.32,16.18,491,199.6,18.8,Volunteer,ORS,Referred
+265,2023-10-22,Manipur,District_4,Village_12,47,Male,Hepatitis A,Well,7.8,8.64,282,96.0,25.7,ASHA,Antibiotics,Under Treatment
+266,2023-01-22,Nagaland,District_8,Village_10,35,Female,Typhoid,Well,8.12,19.7,335,153.7,20.4,Clinic,None,Recovered
+267,2023-02-05,Manipur,District_6,Village_4,40,Male,Diarrhea,Tube Well,6.76,15.01,151,47.8,12.8,Clinic,Antibiotics,Recovered
+268,2023-12-17,Sikkim,District_7,Village_10,28,Male,Diarrhea,Well,6.56,6.46,224,59.3,15.8,Clinic,Hospital Referral,Recovered
+269,2023-06-25,Arunachal Pradesh,District_4,Village_16,73,Female,Cholera,Tube Well,5.63,1.34,286,197.5,20.7,ASHA,Hospital Referral,Under Treatment
+270,2023-10-08,Sikkim,District_3,Village_17,28,Male,Hepatitis A,Pond,6.65,13.91,383,43.7,33.7,Volunteer,Hospital Referral,Recovered
+271,2023-09-03,Arunachal Pradesh,District_4,Village_19,65,Male,Typhoid,Tube Well,7.86,2.7,42,83.5,32.0,ASHA,Antibiotics,Recovered
+272,2023-01-29,Meghalaya,District_3,Village_9,45,Female,Diarrhea,Tube Well,8.33,9.88,46,122.7,14.2,Volunteer,ORS,Under Treatment
+273,2023-11-05,Sikkim,District_5,Village_16,49,Female,Hepatitis A,Well,8.47,5.4,412,188.5,26.2,ASHA,Antibiotics,Under Treatment
+274,2023-08-20,Meghalaya,District_4,Village_19,65,Female,Typhoid,Pond,7.32,10.74,382,46.1,14.4,ASHA,None,Recovered
+275,2023-07-02,Mizoram,District_4,Village_18,43,Male,Typhoid,Pond,6.16,4.54,194,155.9,18.8,Volunteer,Hospital Referral,Under Treatment
+276,2023-07-23,Arunachal Pradesh,District_8,Village_6,77,Male,Hepatitis A,Pond,5.67,19.41,409,176.8,33.2,Volunteer,Hospital Referral,Recovered
+277,2023-01-15,Arunachal Pradesh,District_2,Village_6,28,Female,Typhoid,Pond,8.48,4.3,264,79.2,29.0,ASHA,None,Recovered
+278,2023-10-01,Manipur,District_6,Village_1,47,Male,Hepatitis A,Tap,7.59,3.92,334,163.2,15.6,ASHA,Antibiotics,Recovered
+279,2023-10-15,Arunachal Pradesh,District_5,Village_3,74,Female,Cholera,Tap,6.17,11.2,453,118.6,24.5,ASHA,ORS,Under Treatment
+280,2023-10-01,Sikkim,District_10,Village_1,24,Female,Typhoid,Tap,5.77,17.67,366,53.1,13.2,Clinic,Antibiotics,Death
+281,2023-06-04,Tripura,District_6,Village_4,41,Female,Hepatitis A,Spring,8.17,19.16,77,172.4,30.2,Volunteer,Hospital Referral,Referred
+282,2023-10-08,Manipur,District_6,Village_4,71,Female,Typhoid,Pond,7.47,11.47,96,17.4,20.2,ASHA,Antibiotics,Under Treatment
+283,2023-12-31,Tripura,District_7,Village_5,5,Male,Typhoid,Well,6.62,5.94,147,144.7,22.4,ASHA,Hospital Referral,Death
+284,2023-11-26,Arunachal Pradesh,District_6,Village_1,33,Male,Hepatitis A,Tap,5.74,5.18,298,136.7,11.9,ASHA,Hospital Referral,Under Treatment
+285,2023-09-24,Arunachal Pradesh,District_8,Village_13,63,Female,Diarrhea,Well,8.05,10.41,54,96.1,24.8,Volunteer,Antibiotics,Referred
+286,2023-08-13,Arunachal Pradesh,District_9,Village_5,59,Female,Typhoid,Tube Well,7.97,7.61,289,135.6,24.1,Volunteer,Hospital Referral,Referred
+287,2023-04-09,Mizoram,District_5,Village_7,50,Male,Diarrhea,Tap,6.3,17.69,250,159.5,26.5,ASHA,Antibiotics,Referred
+288,2023-09-24,Assam,District_10,Village_1,25,Male,Typhoid,Tap,8.05,17.48,448,141.7,30.9,ASHA,Hospital Referral,Under Treatment
+289,2023-03-19,Nagaland,District_10,Village_5,57,Male,Typhoid,Tube Well,7.59,13.92,171,123.7,28.8,Clinic,ORS,Death
+290,2023-05-21,Arunachal Pradesh,District_5,Village_2,26,Female,Hepatitis A,Well,5.98,17.74,467,174.4,10.7,Volunteer,ORS,Referred
+291,2023-02-05,Manipur,District_4,Village_18,28,Female,Typhoid,Tube Well,7.98,3.45,86,67.0,28.6,ASHA,Hospital Referral,Referred
+292,2023-12-17,Sikkim,District_7,Village_4,79,Female,Cholera,River,5.98,16.54,271,166.4,22.7,Clinic,ORS,Referred
+293,2023-09-17,Mizoram,District_5,Village_11,20,Female,Cholera,Well,5.52,6.45,329,123.4,34.5,ASHA,None,Recovered
+294,2023-10-08,Assam,District_3,Village_14,28,Female,Diarrhea,Spring,7.4,5.94,374,126.8,23.5,ASHA,None,Recovered
+295,2023-09-10,Arunachal Pradesh,District_5,Village_13,73,Male,Cholera,Tap,7.84,3.03,49,152.2,23.5,ASHA,Antibiotics,Under Treatment
+296,2023-12-17,Tripura,District_9,Village_17,56,Female,Diarrhea,Well,8.39,7.5,202,126.5,33.3,Clinic,Antibiotics,Under Treatment
+297,2023-08-20,Manipur,District_5,Village_3,14,Female,Diarrhea,Tube Well,5.81,18.81,496,137.6,11.7,Clinic,ORS,Recovered
+298,2023-04-23,Nagaland,District_3,Village_8,1,Male,Cholera,Spring,6.4,14.46,72,13.5,24.6,ASHA,Antibiotics,Death
+299,2023-10-01,Mizoram,District_10,Village_3,44,Female,Typhoid,Well,6.54,12.8,159,9.1,31.8,Volunteer,Antibiotics,Referred
+300,2023-01-08,Manipur,District_10,Village_12,48,Male,Typhoid,Tap,8.42,19.41,193,149.9,13.3,ASHA,Hospital Referral,Death
+301,2023-11-19,Sikkim,District_10,Village_19,80,Female,Cholera,Tap,7.77,1.47,192,4.4,18.1,Clinic,None,Recovered
+302,2023-11-05,Nagaland,District_3,Village_13,44,Female,Typhoid,River,6.97,15.64,433,136.7,21.1,Clinic,Hospital Referral,Recovered
+303,2023-11-12,Manipur,District_8,Village_7,25,Female,Cholera,River,6.32,19.95,414,85.2,21.3,Clinic,Antibiotics,Under Treatment
+304,2023-01-15,Arunachal Pradesh,District_9,Village_12,9,Male,Diarrhea,Well,5.99,16.1,386,138.7,15.5,ASHA,Hospital Referral,Recovered
+305,2023-02-05,Meghalaya,District_4,Village_10,13,Male,Typhoid,Spring,5.75,13.93,265,130.9,16.8,ASHA,Antibiotics,Referred
+306,2023-07-09,Nagaland,District_8,Village_6,40,Male,Typhoid,Tap,8.35,3.87,262,86.5,33.6,Volunteer,Antibiotics,Death
+307,2023-10-22,Meghalaya,District_10,Village_19,40,Male,Cholera,Tap,6.76,13.13,186,79.5,16.9,Clinic,Hospital Referral,Under Treatment
+308,2023-04-30,Assam,District_10,Village_11,47,Male,Diarrhea,Well,8.45,8.78,266,178.8,15.7,Clinic,Hospital Referral,Under Treatment
+309,2023-04-30,Tripura,District_3,Village_11,74,Female,Typhoid,Tube Well,6.14,1.59,12,130.3,19.2,ASHA,None,Under Treatment
+310,2023-10-22,Meghalaya,District_4,Village_5,77,Female,Hepatitis A,Tap,8.09,9.99,488,193.6,14.6,ASHA,Hospital Referral,Under Treatment
+311,2023-12-10,Assam,District_4,Village_2,16,Male,Typhoid,Well,8.11,15.76,41,154.2,31.1,Volunteer,ORS,Death
+312,2023-01-01,Meghalaya,District_5,Village_12,13,Female,Diarrhea,Pond,7.78,12.9,45,26.2,10.8,ASHA,ORS,Death
+313,2023-03-12,Assam,District_4,Village_3,73,Female,Typhoid,Tube Well,8.26,12.72,370,159.3,22.0,Clinic,None,Under Treatment
+314,2023-08-06,Arunachal Pradesh,District_3,Village_10,24,Male,Diarrhea,Well,5.85,3.38,354,137.1,20.8,Clinic,None,Death
+315,2023-08-20,Manipur,District_3,Village_9,39,Male,Hepatitis A,Pond,6.1,10.34,145,12.8,24.5,Clinic,Hospital Referral,Under Treatment
+316,2023-08-13,Sikkim,District_8,Village_5,32,Female,Diarrhea,Pond,6.31,16.15,284,62.1,21.4,Clinic,None,Death
+317,2023-11-12,Nagaland,District_10,Village_16,80,Female,Typhoid,Spring,5.53,2.38,37,78.5,22.0,Volunteer,ORS,Referred
+318,2023-02-12,Manipur,District_6,Village_7,9,Male,Typhoid,Tap,7.3,6.54,346,139.0,31.5,Clinic,ORS,Recovered
+319,2023-04-30,Manipur,District_5,Village_18,41,Male,Hepatitis A,Pond,7.84,1.75,286,96.1,12.6,Volunteer,None,Recovered
+320,2023-07-09,Manipur,District_7,Village_6,63,Female,Diarrhea,River,6.23,19.75,192,28.5,22.5,Volunteer,ORS,Under Treatment
+321,2023-07-16,Sikkim,District_7,Village_19,60,Female,Hepatitis A,Well,7.35,14.35,270,111.9,10.2,Clinic,ORS,Referred
+322,2023-01-08,Mizoram,District_9,Village_1,26,Female,Cholera,River,6.48,10.84,401,17.6,18.8,Volunteer,Hospital Referral,Death
+323,2023-09-24,Meghalaya,District_7,Village_18,64,Male,Hepatitis A,Tap,5.6,2.49,335,79.4,13.3,Clinic,Antibiotics,Recovered
+324,2023-05-14,Assam,District_8,Village_3,74,Female,Typhoid,River,7.2,14.1,368,160.1,15.0,Clinic,ORS,Death
+325,2023-01-01,Manipur,District_10,Village_3,56,Female,Typhoid,Pond,6.0,2.99,11,127.3,27.7,ASHA,Hospital Referral,Recovered
+326,2023-09-24,Manipur,District_3,Village_4,58,Male,Diarrhea,Spring,5.59,18.79,318,10.4,23.5,Clinic,Antibiotics,Referred
+327,2023-11-05,Arunachal Pradesh,District_8,Village_17,50,Male,Hepatitis A,Tube Well,7.63,17.55,264,142.8,30.0,Volunteer,Antibiotics,Referred
+328,2023-02-05,Tripura,District_1,Village_13,63,Female,Diarrhea,Spring,6.52,16.48,86,16.0,32.4,Volunteer,ORS,Under Treatment
+329,2023-01-22,Mizoram,District_8,Village_7,26,Female,Hepatitis A,River,7.14,16.53,321,90.5,26.1,Clinic,Antibiotics,Recovered
+330,2023-12-10,Arunachal Pradesh,District_10,Village_3,14,Male,Hepatitis A,Spring,7.08,14.9,175,16.3,11.5,ASHA,None,Recovered
+331,2023-10-08,Sikkim,District_9,Village_18,76,Female,Diarrhea,Spring,6.24,4.03,71,174.4,15.5,Volunteer,ORS,Recovered
+332,2023-08-13,Arunachal Pradesh,District_7,Village_12,67,Male,Cholera,Well,8.43,7.4,117,36.4,29.7,Volunteer,None,Recovered
+333,2023-09-10,Assam,District_10,Village_16,65,Female,Hepatitis A,Spring,7.48,10.47,497,111.1,28.0,Clinic,None,Death
+334,2023-02-05,Tripura,District_3,Village_20,56,Male,Diarrhea,Well,6.19,19.93,494,195.0,26.3,Volunteer,ORS,Death
+335,2023-02-19,Tripura,District_3,Village_18,66,Male,Cholera,Well,6.1,13.92,268,14.4,10.8,Clinic,Hospital Referral,Referred
+336,2023-07-23,Arunachal Pradesh,District_6,Village_2,45,Female,Typhoid,Spring,6.27,9.79,103,173.7,28.2,Clinic,None,Death
+337,2023-03-05,Nagaland,District_4,Village_4,49,Male,Diarrhea,Spring,7.73,9.08,407,69.2,19.3,Volunteer,Antibiotics,Recovered
+338,2023-09-17,Assam,District_9,Village_3,11,Male,Diarrhea,Tap,8.46,1.76,383,173.4,24.5,ASHA,ORS,Referred
+339,2023-05-07,Tripura,District_1,Village_17,28,Male,Cholera,Tap,6.82,14.78,228,97.3,31.8,ASHA,ORS,Referred
+340,2023-08-13,Meghalaya,District_6,Village_15,1,Male,Diarrhea,Well,8.2,9.01,483,55.4,24.8,Volunteer,Antibiotics,Referred
+341,2023-06-25,Nagaland,District_4,Village_11,1,Male,Typhoid,Spring,8.24,5.0,384,124.6,25.8,Clinic,None,Recovered
+342,2023-10-08,Tripura,District_9,Village_14,67,Female,Diarrhea,Well,7.7,3.5,472,143.2,32.7,ASHA,Antibiotics,Death
+343,2023-01-15,Mizoram,District_10,Village_19,75,Female,Typhoid,Tap,6.04,5.51,182,194.3,14.5,ASHA,Hospital Referral,Under Treatment
+344,2023-04-09,Nagaland,District_3,Village_2,45,Male,Cholera,Tap,8.06,10.35,171,49.4,31.8,ASHA,Antibiotics,Referred
+345,2023-12-17,Assam,District_8,Village_4,56,Male,Typhoid,Well,6.84,10.78,77,71.8,24.8,Volunteer,ORS,Under Treatment
+346,2023-01-29,Meghalaya,District_10,Village_11,44,Female,Cholera,Spring,5.99,8.43,176,193.9,16.5,Clinic,Hospital Referral,Referred
+347,2023-07-16,Mizoram,District_4,Village_1,1,Female,Typhoid,Well,7.47,7.18,306,154.7,13.3,Volunteer,Hospital Referral,Death
+348,2023-09-03,Tripura,District_2,Village_6,53,Male,Cholera,Spring,8.41,9.62,161,47.2,11.8,Clinic,Antibiotics,Referred
+349,2023-02-12,Mizoram,District_5,Village_19,29,Male,Hepatitis A,Tube Well,6.01,10.88,236,67.4,30.7,ASHA,ORS,Under Treatment
+350,2023-04-02,Sikkim,District_3,Village_17,5,Male,Typhoid,Tap,6.79,5.73,128,123.4,27.7,ASHA,Hospital Referral,Recovered
+351,2023-04-23,Sikkim,District_1,Village_10,7,Female,Cholera,Pond,6.0,4.18,406,7.3,28.4,Clinic,Antibiotics,Under Treatment
+352,2023-11-26,Meghalaya,District_4,Village_18,13,Female,Diarrhea,Spring,7.49,10.02,448,168.8,30.1,Volunteer,None,Referred
+353,2023-11-12,Nagaland,District_5,Village_4,7,Male,Hepatitis A,Tube Well,7.26,17.5,22,41.2,12.8,ASHA,None,Referred
+354,2023-04-16,Assam,District_3,Village_17,45,Male,Diarrhea,Well,6.31,2.08,111,106.2,33.4,Volunteer,None,Recovered
+355,2023-09-03,Arunachal Pradesh,District_1,Village_17,13,Female,Typhoid,Spring,5.62,3.32,71,90.4,33.3,Volunteer,ORS,Recovered
+356,2023-06-25,Mizoram,District_8,Village_14,14,Female,Hepatitis A,Pond,6.45,10.64,458,8.3,13.7,ASHA,None,Recovered
+357,2023-02-19,Sikkim,District_7,Village_8,65,Male,Cholera,Well,8.46,19.34,214,1.0,33.8,Clinic,Hospital Referral,Under Treatment
+358,2023-01-15,Nagaland,District_5,Village_15,51,Male,Diarrhea,Tap,7.42,17.49,193,90.9,22.9,ASHA,Antibiotics,Death
+359,2023-03-05,Manipur,District_9,Village_6,75,Female,Diarrhea,River,6.97,13.67,22,27.9,10.7,ASHA,ORS,Under Treatment
+360,2023-05-21,Assam,District_5,Village_20,60,Male,Cholera,Spring,6.42,14.39,362,40.4,26.8,Clinic,ORS,Death
+361,2023-03-26,Mizoram,District_6,Village_10,2,Female,Hepatitis A,Pond,8.41,2.78,222,134.5,21.1,Volunteer,None,Death
+362,2023-04-09,Manipur,District_10,Village_20,11,Female,Typhoid,Tap,8.1,4.37,177,138.5,31.0,Volunteer,ORS,Death
+363,2023-01-08,Nagaland,District_7,Village_6,10,Male,Diarrhea,Tube Well,8.33,13.98,345,99.4,25.4,Volunteer,ORS,Under Treatment
+364,2023-06-04,Tripura,District_6,Village_13,48,Female,Cholera,Tube Well,8.11,11.84,438,6.1,33.3,ASHA,Hospital Referral,Referred
+365,2023-05-07,Nagaland,District_10,Village_13,67,Female,Diarrhea,Tube Well,7.57,13.85,372,43.1,26.5,Clinic,ORS,Death
+366,2023-08-27,Tripura,District_9,Village_13,23,Male,Typhoid,Tube Well,6.68,13.37,330,21.3,26.4,ASHA,Antibiotics,Death
+367,2023-10-29,Arunachal Pradesh,District_5,Village_19,54,Male,Typhoid,Spring,8.5,1.92,322,195.4,20.2,Clinic,Antibiotics,Under Treatment
+368,2023-06-11,Manipur,District_4,Village_1,48,Male,Cholera,Tube Well,8.11,15.87,4,113.4,28.5,ASHA,ORS,Under Treatment
+369,2023-03-26,Arunachal Pradesh,District_2,Village_10,39,Male,Cholera,Tube Well,8.14,8.68,56,65.4,26.7,ASHA,Hospital Referral,Referred
+370,2023-10-08,Assam,District_2,Village_4,25,Female,Diarrhea,Spring,7.92,15.48,434,159.6,20.9,ASHA,Hospital Referral,Under Treatment
+371,2023-10-22,Nagaland,District_5,Village_9,54,Female,Typhoid,Tap,7.95,3.28,1,108.9,10.1,Clinic,ORS,Under Treatment
+372,2023-12-31,Nagaland,District_2,Village_8,27,Female,Cholera,River,6.47,7.96,374,79.2,27.4,ASHA,Antibiotics,Recovered
+373,2023-10-22,Mizoram,District_6,Village_16,27,Male,Diarrhea,Spring,6.67,9.53,382,47.5,19.3,Clinic,Antibiotics,Recovered
+374,2023-01-08,Tripura,District_5,Village_19,23,Male,Cholera,Spring,6.18,2.39,402,120.7,26.7,ASHA,None,Death
+375,2023-11-12,Assam,District_4,Village_10,56,Male,Hepatitis A,River,7.36,9.81,30,76.0,31.6,Clinic,ORS,Referred
+376,2023-04-23,Arunachal Pradesh,District_6,Village_19,62,Male,Diarrhea,Tap,7.06,10.1,340,5.1,18.5,ASHA,ORS,Referred
+377,2023-02-19,Mizoram,District_4,Village_17,43,Female,Typhoid,Spring,6.64,8.58,451,116.0,23.3,Clinic,Antibiotics,Death
+378,2023-05-21,Mizoram,District_5,Village_18,48,Female,Typhoid,Well,7.32,15.53,495,162.6,28.0,Clinic,ORS,Recovered
+379,2023-07-23,Assam,District_5,Village_5,32,Female,Diarrhea,River,8.37,1.35,39,39.2,10.2,Volunteer,None,Referred
+380,2023-05-21,Manipur,District_6,Village_14,27,Male,Diarrhea,Well,7.44,18.06,41,48.7,33.2,ASHA,ORS,Under Treatment
+381,2023-04-30,Nagaland,District_10,Village_19,29,Female,Cholera,Tube Well,5.68,18.75,33,70.3,12.5,Volunteer,Antibiotics,Death
+382,2023-10-22,Nagaland,District_8,Village_1,66,Male,Cholera,Well,6.96,5.88,22,57.0,17.7,Clinic,Hospital Referral,Death
+383,2023-04-23,Nagaland,District_3,Village_4,43,Female,Diarrhea,River,7.91,11.24,86,62.3,25.3,Volunteer,None,Referred
+384,2023-10-15,Sikkim,District_2,Village_3,79,Female,Hepatitis A,Spring,7.65,6.18,0,82.7,13.0,ASHA,None,Referred
+385,2023-05-14,Manipur,District_10,Village_20,72,Female,Cholera,Tap,6.04,13.94,419,36.3,23.1,Volunteer,None,Referred
+386,2023-01-08,Sikkim,District_3,Village_4,42,Female,Typhoid,Well,7.63,3.03,68,113.5,16.4,Clinic,Hospital Referral,Under Treatment
+387,2023-01-22,Meghalaya,District_5,Village_17,34,Male,Diarrhea,Tap,8.39,10.19,75,161.2,23.8,Volunteer,Antibiotics,Death
+388,2023-12-03,Manipur,District_8,Village_20,44,Male,Hepatitis A,Well,5.63,13.03,440,190.3,25.0,Volunteer,Antibiotics,Recovered
+389,2023-11-26,Manipur,District_10,Village_17,12,Male,Hepatitis A,Tap,7.96,17.8,498,45.6,15.3,Clinic,Antibiotics,Death
+390,2023-09-24,Nagaland,District_9,Village_3,66,Female,Cholera,Pond,7.33,8.81,469,168.0,32.5,Clinic,Antibiotics,Under Treatment
+391,2023-04-30,Sikkim,District_9,Village_18,47,Female,Diarrhea,Tube Well,6.56,5.5,282,156.1,16.9,Clinic,Antibiotics,Death
+392,2023-06-18,Mizoram,District_2,Village_4,15,Male,Cholera,Spring,7.97,9.05,233,133.5,12.4,Clinic,Hospital Referral,Recovered
+393,2023-05-28,Sikkim,District_9,Village_12,76,Male,Hepatitis A,Tube Well,7.37,9.58,346,117.3,14.2,ASHA,ORS,Under Treatment
+394,2023-03-26,Mizoram,District_5,Village_19,59,Female,Typhoid,Pond,7.71,17.39,345,43.3,12.4,Clinic,Antibiotics,Under Treatment
+395,2023-03-26,Sikkim,District_5,Village_20,36,Female,Cholera,Pond,5.57,13.2,113,121.4,23.7,Clinic,ORS,Referred
+396,2023-09-03,Nagaland,District_4,Village_17,44,Male,Diarrhea,Tap,6.2,8.43,381,118.9,22.4,ASHA,Hospital Referral,Referred
+397,2023-06-11,Nagaland,District_10,Village_16,66,Male,Hepatitis A,Tube Well,8.46,3.59,68,139.0,20.1,Volunteer,None,Recovered
+398,2023-03-26,Nagaland,District_4,Village_9,39,Female,Cholera,Tube Well,6.78,14.63,495,138.5,34.8,Volunteer,Hospital Referral,Under Treatment
+399,2023-04-09,Manipur,District_2,Village_12,46,Female,Typhoid,Pond,5.89,2.98,7,144.9,24.5,Volunteer,Hospital Referral,Death
+400,2023-11-05,Meghalaya,District_8,Village_18,49,Male,Cholera,Tap,6.32,2.51,293,17.1,32.4,Volunteer,Antibiotics,Death
+401,2023-04-30,Manipur,District_8,Village_2,20,Male,Hepatitis A,River,6.08,7.14,384,45.3,18.9,Clinic,None,Death
+402,2023-08-13,Sikkim,District_6,Village_16,10,Male,Diarrhea,Tube Well,5.71,10.86,227,13.5,30.0,Clinic,Hospital Referral,Referred
+403,2023-12-24,Sikkim,District_5,Village_2,24,Female,Cholera,Tube Well,6.2,11.26,193,176.0,26.3,Volunteer,Hospital Referral,Recovered
+404,2023-09-24,Manipur,District_3,Village_11,76,Male,Cholera,Tube Well,7.1,7.16,241,66.6,26.7,Volunteer,Antibiotics,Under Treatment
+405,2023-06-25,Mizoram,District_8,Village_14,78,Male,Typhoid,River,8.48,13.57,403,111.6,28.3,Clinic,Hospital Referral,Death
+406,2023-08-20,Mizoram,District_10,Village_17,76,Male,Hepatitis A,Pond,6.9,2.14,97,112.5,33.9,Volunteer,Antibiotics,Referred
+407,2023-02-19,Mizoram,District_5,Village_7,56,Male,Hepatitis A,Well,6.03,14.11,95,40.2,23.4,Volunteer,None,Referred
+408,2023-01-08,Nagaland,District_10,Village_9,1,Female,Hepatitis A,Tap,5.79,9.56,171,151.2,18.7,ASHA,Antibiotics,Referred
+409,2023-10-22,Manipur,District_7,Village_12,32,Male,Typhoid,Tap,7.49,16.11,469,185.4,15.9,Volunteer,Hospital Referral,Death
+410,2023-09-10,Arunachal Pradesh,District_1,Village_13,25,Female,Hepatitis A,Pond,6.7,3.9,188,198.5,33.2,ASHA,Hospital Referral,Recovered
+411,2023-08-06,Sikkim,District_3,Village_3,18,Female,Cholera,River,7.12,17.0,433,104.2,25.6,ASHA,Antibiotics,Under Treatment
+412,2023-05-28,Nagaland,District_2,Village_11,59,Male,Typhoid,Spring,5.77,15.35,397,25.5,30.7,Volunteer,ORS,Death
+413,2023-02-19,Sikkim,District_3,Village_12,67,Male,Cholera,Tube Well,7.85,14.47,438,7.2,17.6,Clinic,Hospital Referral,Recovered
+414,2023-07-30,Assam,District_10,Village_20,57,Male,Cholera,Tube Well,6.29,7.84,368,17.5,33.4,Volunteer,Antibiotics,Referred
+415,2023-01-29,Tripura,District_6,Village_19,71,Female,Hepatitis A,Well,7.16,6.8,104,79.4,21.2,Clinic,Hospital Referral,Recovered
+416,2023-06-04,Meghalaya,District_8,Village_9,62,Female,Cholera,Spring,7.3,10.8,225,183.9,22.4,Clinic,ORS,Recovered
+417,2023-09-17,Sikkim,District_2,Village_12,26,Male,Diarrhea,Well,8.48,17.18,354,41.7,33.3,Volunteer,ORS,Referred
+418,2023-09-10,Mizoram,District_10,Village_4,6,Female,Hepatitis A,Spring,5.85,16.53,386,76.1,31.9,Volunteer,ORS,Under Treatment
+419,2023-03-19,Tripura,District_8,Village_7,56,Female,Typhoid,Pond,8.1,16.31,269,158.0,17.6,Clinic,Antibiotics,Death
+420,2023-03-05,Meghalaya,District_7,Village_15,7,Male,Diarrhea,Well,5.74,8.66,432,34.7,27.4,ASHA,Antibiotics,Recovered
+421,2023-10-08,Sikkim,District_3,Village_16,41,Male,Diarrhea,Well,6.54,19.54,53,128.2,30.6,ASHA,Antibiotics,Death
+422,2023-07-09,Nagaland,District_3,Village_2,42,Male,Hepatitis A,Spring,5.9,17.38,445,184.6,22.2,Volunteer,ORS,Recovered
+423,2023-05-28,Assam,District_4,Village_15,78,Male,Hepatitis A,River,7.32,15.53,290,35.0,22.6,Volunteer,Hospital Referral,Under Treatment
+424,2023-02-19,Nagaland,District_7,Village_4,80,Male,Typhoid,Tube Well,6.7,3.78,141,73.5,11.7,Clinic,Antibiotics,Recovered
+425,2023-01-01,Meghalaya,District_6,Village_10,7,Male,Diarrhea,Tap,5.58,3.57,476,192.6,23.7,Volunteer,Hospital Referral,Referred
+426,2023-07-02,Meghalaya,District_1,Village_12,39,Female,Hepatitis A,River,8.4,9.22,127,62.4,22.7,Volunteer,ORS,Death
+427,2023-01-22,Nagaland,District_6,Village_9,32,Male,Typhoid,River,6.82,3.01,476,128.2,15.4,Clinic,Hospital Referral,Recovered
+428,2023-01-29,Tripura,District_10,Village_11,6,Female,Cholera,Tube Well,7.36,13.35,144,30.4,11.5,ASHA,Hospital Referral,Under Treatment
+429,2023-05-21,Manipur,District_6,Village_6,63,Male,Typhoid,Spring,7.84,9.74,363,11.6,34.9,Clinic,None,Under Treatment
+430,2023-11-05,Nagaland,District_10,Village_2,25,Female,Cholera,Well,5.67,14.21,335,196.7,16.0,Clinic,ORS,Under Treatment
+431,2023-02-26,Arunachal Pradesh,District_10,Village_8,50,Female,Typhoid,Tube Well,5.93,3.31,330,60.7,12.5,Clinic,Hospital Referral,Recovered
+432,2023-10-22,Mizoram,District_4,Village_19,13,Female,Typhoid,River,7.58,2.18,265,101.9,34.9,Volunteer,Antibiotics,Referred
+433,2023-08-20,Nagaland,District_9,Village_14,12,Male,Diarrhea,River,7.94,12.69,219,61.3,25.6,ASHA,Hospital Referral,Recovered
+434,2023-07-16,Meghalaya,District_7,Village_14,13,Female,Hepatitis A,Tap,7.08,9.1,68,26.1,32.2,Clinic,ORS,Referred
+435,2023-05-21,Tripura,District_4,Village_13,72,Male,Typhoid,Tap,6.85,4.7,36,73.6,20.4,ASHA,Antibiotics,Death
+436,2023-10-15,Manipur,District_8,Village_16,4,Female,Hepatitis A,Tube Well,7.98,14.94,220,153.9,10.3,Clinic,None,Under Treatment
+437,2023-03-12,Sikkim,District_9,Village_17,65,Female,Typhoid,Tap,6.75,10.15,49,3.8,16.5,ASHA,None,Death
+438,2023-03-26,Tripura,District_8,Village_11,35,Male,Typhoid,Spring,7.78,3.61,129,107.1,15.4,Clinic,Hospital Referral,Recovered
+439,2023-04-23,Arunachal Pradesh,District_8,Village_4,19,Male,Diarrhea,Tap,5.54,5.58,110,195.2,30.0,ASHA,Hospital Referral,Under Treatment
+440,2023-06-04,Manipur,District_3,Village_1,20,Female,Hepatitis A,Spring,8.38,10.27,26,21.9,23.7,ASHA,Antibiotics,Death
+441,2023-12-24,Mizoram,District_8,Village_16,22,Male,Typhoid,Tube Well,6.86,17.04,353,19.6,22.2,Volunteer,Hospital Referral,Under Treatment
+442,2023-05-21,Mizoram,District_8,Village_12,19,Male,Hepatitis A,Well,5.95,7.17,29,147.5,21.9,ASHA,Hospital Referral,Recovered
+443,2023-04-02,Assam,District_10,Village_3,10,Female,Typhoid,River,6.63,8.5,320,91.9,29.6,Clinic,Hospital Referral,Referred
+444,2023-12-17,Meghalaya,District_6,Village_7,10,Male,Cholera,River,8.18,19.15,411,157.4,17.9,ASHA,None,Death
+445,2023-12-03,Arunachal Pradesh,District_4,Village_3,24,Male,Cholera,Tap,7.56,9.31,143,50.9,31.0,Volunteer,Antibiotics,Referred
+446,2023-04-09,Assam,District_9,Village_20,6,Female,Cholera,Tap,5.62,18.13,283,92.3,25.9,Clinic,Antibiotics,Under Treatment
+447,2023-01-22,Meghalaya,District_9,Village_20,71,Male,Cholera,Pond,7.48,18.01,435,127.3,25.3,ASHA,None,Under Treatment
+448,2023-01-22,Arunachal Pradesh,District_7,Village_3,61,Male,Cholera,Tube Well,5.7,10.85,81,30.0,28.4,Volunteer,Antibiotics,Recovered
+449,2023-04-02,Tripura,District_4,Village_19,78,Female,Hepatitis A,Tap,7.04,13.92,78,8.3,12.1,Clinic,Hospital Referral,Death
+450,2023-07-23,Manipur,District_8,Village_20,7,Male,Diarrhea,Well,7.65,2.37,50,14.3,10.3,ASHA,ORS,Under Treatment
+451,2023-12-17,Manipur,District_4,Village_6,9,Male,Diarrhea,Spring,8.37,15.01,373,70.7,17.4,Clinic,Hospital Referral,Recovered
+452,2023-07-16,Mizoram,District_3,Village_1,5,Female,Diarrhea,Well,6.55,15.72,323,132.3,14.6,Volunteer,Hospital Referral,Recovered
+453,2023-03-12,Assam,District_1,Village_10,44,Male,Diarrhea,Pond,6.02,2.87,452,132.1,29.1,Volunteer,None,Under Treatment
+454,2023-09-17,Mizoram,District_2,Village_14,5,Male,Cholera,Spring,6.3,1.4,409,16.4,34.2,Clinic,Hospital Referral,Referred
+455,2023-10-01,Tripura,District_3,Village_1,24,Male,Hepatitis A,Well,6.39,15.62,377,124.9,19.5,Clinic,None,Death
+456,2023-06-25,Sikkim,District_5,Village_6,32,Female,Cholera,Well,6.12,3.31,282,123.0,29.4,Clinic,Antibiotics,Recovered
+457,2023-10-29,Nagaland,District_2,Village_10,30,Male,Diarrhea,River,7.43,11.08,320,8.4,34.2,Clinic,ORS,Death
+458,2023-11-19,Manipur,District_7,Village_2,58,Female,Diarrhea,Tube Well,7.9,6.56,432,196.0,25.0,ASHA,Antibiotics,Under Treatment
+459,2023-07-16,Arunachal Pradesh,District_6,Village_20,21,Male,Hepatitis A,Tap,7.25,15.21,37,162.4,26.4,Volunteer,Antibiotics,Death
+460,2023-11-05,Manipur,District_3,Village_3,23,Male,Diarrhea,Tube Well,5.88,7.43,197,185.6,15.6,Clinic,None,Death
+461,2023-06-11,Meghalaya,District_5,Village_13,30,Male,Hepatitis A,Spring,6.62,9.21,344,87.9,25.3,Volunteer,ORS,Referred
+462,2023-08-13,Sikkim,District_5,Village_20,17,Female,Hepatitis A,Pond,8.33,5.57,110,24.3,14.9,ASHA,None,Recovered
+463,2023-04-16,Manipur,District_6,Village_11,34,Male,Typhoid,Tap,8.16,13.27,486,57.2,30.4,Clinic,ORS,Recovered
+464,2023-01-08,Meghalaya,District_7,Village_7,26,Female,Hepatitis A,Pond,8.08,17.08,316,183.8,16.3,Volunteer,Antibiotics,Under Treatment
+465,2023-04-09,Mizoram,District_8,Village_15,10,Male,Typhoid,Spring,7.77,9.75,381,168.4,28.2,Volunteer,Antibiotics,Referred
+466,2023-01-01,Nagaland,District_4,Village_5,23,Male,Typhoid,River,7.83,13.47,281,35.5,23.6,ASHA,Antibiotics,Referred
+467,2023-05-21,Arunachal Pradesh,District_7,Village_16,59,Female,Typhoid,River,8.45,18.81,403,8.6,14.1,Volunteer,Hospital Referral,Under Treatment
+468,2023-06-11,Mizoram,District_6,Village_2,74,Female,Diarrhea,Tube Well,5.9,14.79,400,163.6,15.3,Volunteer,Antibiotics,Recovered
+469,2023-03-05,Mizoram,District_8,Village_3,13,Male,Typhoid,Tap,7.02,16.97,8,146.6,23.6,ASHA,None,Recovered
+470,2023-09-10,Tripura,District_9,Village_16,1,Male,Hepatitis A,Pond,7.27,10.66,441,59.5,24.1,Volunteer,Antibiotics,Referred
+471,2023-07-16,Meghalaya,District_3,Village_11,28,Female,Hepatitis A,Tap,7.57,17.59,0,127.3,29.0,Volunteer,None,Recovered
+472,2023-06-18,Nagaland,District_3,Village_9,34,Male,Typhoid,Well,5.98,9.77,206,1.9,16.2,Volunteer,Hospital Referral,Recovered
+473,2023-12-24,Mizoram,District_4,Village_3,73,Male,Hepatitis A,Well,7.68,19.84,264,19.8,20.0,Volunteer,Hospital Referral,Referred
+474,2023-01-15,Nagaland,District_8,Village_15,11,Female,Typhoid,Pond,7.9,4.88,437,111.0,28.3,Volunteer,Hospital Referral,Death
+475,2023-11-19,Tripura,District_10,Village_13,25,Female,Diarrhea,River,7.35,4.57,409,71.1,29.6,ASHA,Hospital Referral,Under Treatment
+476,2023-03-12,Tripura,District_4,Village_6,73,Female,Typhoid,Pond,7.16,1.1,311,152.2,10.9,Volunteer,Hospital Referral,Recovered
+477,2023-07-16,Mizoram,District_2,Village_8,56,Male,Cholera,Tap,7.74,4.85,324,191.6,19.2,Volunteer,ORS,Referred
+478,2023-01-15,Manipur,District_7,Village_8,42,Male,Cholera,Tube Well,6.48,3.83,288,61.1,31.9,Clinic,None,Recovered
+479,2023-05-14,Meghalaya,District_6,Village_6,78,Male,Cholera,Well,8.49,8.0,326,89.7,28.1,ASHA,Hospital Referral,Recovered
+480,2023-07-02,Manipur,District_7,Village_9,48,Male,Cholera,River,8.16,12.27,170,78.3,20.3,Clinic,None,Recovered
+481,2023-10-29,Arunachal Pradesh,District_4,Village_2,2,Male,Typhoid,Spring,7.59,1.06,395,123.9,18.9,Volunteer,Antibiotics,Death
+482,2023-03-19,Manipur,District_1,Village_14,37,Male,Cholera,Spring,7.88,2.77,274,117.6,22.0,ASHA,ORS,Referred
+483,2023-02-12,Meghalaya,District_1,Village_9,80,Female,Hepatitis A,Tube Well,7.43,2.23,306,116.0,24.0,Volunteer,None,Recovered
+484,2023-04-02,Nagaland,District_7,Village_2,7,Female,Cholera,Spring,7.18,12.47,217,135.3,30.1,Volunteer,Hospital Referral,Under Treatment
+485,2023-08-13,Tripura,District_8,Village_12,8,Male,Cholera,Spring,6.31,16.68,318,99.7,11.9,Volunteer,Hospital Referral,Recovered
+486,2023-05-07,Arunachal Pradesh,District_10,Village_3,59,Female,Hepatitis A,Pond,5.68,7.35,416,157.0,27.7,Clinic,None,Under Treatment
+487,2023-01-15,Tripura,District_10,Village_10,2,Male,Cholera,River,7.87,10.83,469,88.0,13.7,Clinic,None,Under Treatment
+488,2023-03-26,Meghalaya,District_4,Village_7,80,Male,Diarrhea,Tap,6.48,9.25,280,17.7,15.5,ASHA,None,Under Treatment
+489,2023-04-23,Sikkim,District_4,Village_10,64,Female,Diarrhea,Pond,7.29,14.98,96,199.7,33.3,ASHA,ORS,Death
+490,2023-03-12,Nagaland,District_10,Village_19,53,Female,Typhoid,Tap,7.43,9.0,88,127.2,29.6,ASHA,Antibiotics,Under Treatment
+491,2023-12-10,Tripura,District_1,Village_7,4,Male,Typhoid,Tap,5.86,8.79,295,168.0,19.6,Volunteer,None,Referred
+492,2023-05-07,Tripura,District_5,Village_15,30,Female,Hepatitis A,Well,7.22,12.17,222,36.9,19.1,Volunteer,None,Recovered
+493,2023-07-23,Nagaland,District_7,Village_3,77,Male,Typhoid,Tube Well,6.5,1.5,255,4.8,30.8,ASHA,Hospital Referral,Death
+494,2023-02-19,Meghalaya,District_2,Village_1,2,Female,Hepatitis A,Tap,6.32,10.84,145,59.7,33.5,Clinic,Hospital Referral,Death
+495,2023-12-03,Manipur,District_4,Village_17,32,Female,Diarrhea,Well,6.28,9.16,53,174.5,31.0,ASHA,Antibiotics,Death
+496,2023-09-17,Assam,District_3,Village_3,56,Female,Hepatitis A,Spring,6.06,16.25,483,91.6,22.1,Volunteer,ORS,Recovered
+497,2023-07-02,Arunachal Pradesh,District_6,Village_2,6,Female,Hepatitis A,Tap,5.9,2.53,162,145.6,22.4,Clinic,ORS,Death
+498,2023-09-17,Manipur,District_8,Village_8,57,Male,Diarrhea,Spring,6.81,14.86,432,153.1,14.0,Volunteer,Antibiotics,Recovered
+499,2023-11-05,Sikkim,District_2,Village_6,79,Male,Typhoid,Spring,7.33,3.57,487,150.3,26.4,Volunteer,Antibiotics,Referred
+500,2023-12-17,Manipur,District_8,Village_6,61,Male,Diarrhea,Tube Well,8.37,2.31,407,11.4,17.1,Volunteer,Hospital Referral,Death

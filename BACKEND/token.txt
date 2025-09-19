@@ -1,0 +1,12 @@
+REFRESH_TOKEN="AMf-vBzk6OmAd_fHirvk51XALbZEG2WWy_a66JGPEOtLajoQ3epJUpYZasgx8sKFUDNM2tcO1Igm6SHdFyGGn5HgxCc8ziaKsxFj-VIhZftJSUOFkAzrP3BOI0I1CE-WXLUkDgIunm77hWMDLSMw_eaCHoLJplnxsxfcUrX1sL3tQIMLZFKY2Xx2DewLIM0gaJ5Kkl5o-q9d"
+
+curl -X POST "https://securetoken.googleapis.com/v1/token?key=AIzaSyC6pNVgbv6KLkeKg19W_9co8FPztkbemrc" \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "grant_type=refresh_token&refresh_token=$REFRESH_TOKEN"
+
+
+
+
+curl -X POST "https://securetoken.googleapis.com/v1/token?key=AIzaSyC6pNVgbv6KLkeKg19W_9co8FPztkbemrc" \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "grant_type=refresh_token&refresh_token=$AMf-vBzk6OmAd_fHirvk51XALbZEG2WWy_a66JGPEOtLajoQ3epJUpYZasgx8sKFUDNM2tcO1Igm6SHdFyGGn5HgxCc8ziaKsxFj-VIhZftJSUOFkAzrP3BOI0I1CE-WXLUkDgIunm77hWMDLSMw_eaCHoLJplnxsxfcUrX1sL3tQIMLZFKY2Xx2DewLIM0gaJ5Kkl5o-q9d"
